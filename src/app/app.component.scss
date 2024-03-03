@@ -1,0 +1,17 @@
+.toolbar-item-spacer {
+    flex: 1 1 auto;
+}
+.app-container {
+    display: flex;
+    height: 100vh; /* Adjust as needed */
+  }
+  
+  .app-sidenav {
+    width: 250px; /* Adjust as needed */
+  }
+  
+  .mat-sidenav-content {
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+  

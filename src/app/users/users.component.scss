@@ -1,0 +1,54 @@
+/* Adjust as needed */
+.container {
+    width: 100%; /* Ensure the container takes up the full width */
+    height: 100%; /* Ensure the container takes up the full height */
+    overflow: hidden; /* Prevent overflow */
+  }
+  
+  
+  .content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+ ::ng-deep .mat-mdc-tab-group.mat-mdc-tab-group-stretch-tabs>.mat-mdc-tab-header .mat-mdc-tab {
+    flex-grow: 0.2 !important;
+}
+
+
+.custom-file-input {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .custom-file-label {
+    background-color: #007BA7;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    font-family: 'Lato';
+    letter-spacing: .0178571429em;
+  }
+  
+  .custom-file-label:hover {
+    background-color: #007BA7;
+  }
+   
+ 
+   
+  ::ng-deep .mat-mdc-tab-body-content {
+    overflow: hidden !important;
+  }
+
+  

@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+html, body { height: 100%; }
+body { margin: 0; font-family:  'Lato';}
+
+
+::ng-deep .mdc-text-field {
+    background-color: #fff !important;
+  }
+ ::ng-deep .mat-body, .mat-body-2, .mat-typography .mat-body, .mat-typography .mat-body-2, .mat-typography {
+    font-size: 14px;
+    font-weight: 00;
+    line-height: 20px;
+    font-family: 'Lato';
+    letter-spacing: .0178571429em;
+}
+
+
+.mat-mdc-raised-button.mat-primary {
+  --mdc-protected-button-container-color: #007BA7;
+}
+.mat-toolbar.mat-primary {
+  background-color: #007BA7;
+}
+

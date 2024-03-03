@@ -1,0 +1,57 @@
+<div class="login-container">
+  <div class="blue-section">
+    <!-- Content for the blue section -->
+  </div>
+  <div class="white-section">
+    <!-- Content for the white section -->
+  
+  </div>
+</div>
+
+<mat-card class="mat-card">
+  <div class="login-container">
+  <div class="blue-section1">
+    <div class="heading-container">
+      <img src="assets/flic_logo.png" alt="Flic Logo">
+      <h1 class="heading-text">Flic Microwaves</h1>
+    </div>
+    
+  </div>
+  <div class="white-section">
+    <div class="container">
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-6">
+        <form class="text-center"(ngSubmit)="onSubmit()"  >
+    <h2 style="color: #007BA7; font-size: 22px; font-family:'Lato'">Login</h2>
+
+    <div class="form-group" >
+        <div class="input-group" style="padding-top:5%">
+            <div class="input-group-prepend">
+                <span class="input-group-text"><i class="fas fa-user"></i></span>
+            </div>
+            <input type="text" class="form-control" id="userId" placeholder="Enter your username" >
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="input-group" style="padding-top:5%">
+            <div class="input-group-prepend">
+                <span class="input-group-text"><i class="fas fa-key"></i></span>
+            </div>
+            <input type="password" class="form-control" id="password" placeholder="Enter your password">
+        </div>
+    </div>
+    <div style="padding-top:5%">
+    <a> Forgot Password? </a>
+    </div>
+    <div style="padding-top: 5%; place-items: center ">
+    <button mat-raised-button color="primary" style="width: 50%; " type="submit" onclick="login =true"  >Login</button>
+  </div>
+</form>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  </div>
+</mat-card>
